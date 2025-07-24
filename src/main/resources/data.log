@@ -1,0 +1,36 @@
+Request method:	POST
+Request URI:	https://172.25.29.91/api/voip/v1/user/role/managerRole/delete
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json;charset=UTF-8
+Cookies:		JSESSIONID=969243FE2A3147168A60628F68DE150C
+				X_VER_KEY=
+				SESSION=sqpzbgghblxfrqcp
+Multiparts:		<none>
+Body:
+{
+    "roleId": "10078"
+}
+HTTP/1.1 200 
+Server: nginx/1.20.1
+Date: Wed, 23 Jul 2025 08:45:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET,POST
+
+{
+    "errorCode": 0,
+    "errorMsg": "success",
+    "traceId": null,
+    "result": null
+}

@@ -1,0 +1,72 @@
+Request method:	POST
+Request URI:	https://172.25.29.91/api/voip/v1/user/list
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json;charset=UTF-8
+Cookies:		JSESSIONID=C1417D05F36E88CC74CA78AE73018784
+				X_VER_KEY=
+				SESSION=bcrifywsbpainkci
+Multiparts:		<none>
+Body:
+{
+    "search": "19404996412",
+    "pageSize": 20,
+    "pageNum": 1,
+    "orgId": "214"
+}
+HTTP/1.1 200 
+Server: nginx/1.20.1
+Date: Wed, 23 Jul 2025 08:40:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET,POST
+
+{
+    "errorCode": 0,
+    "errorMsg": "success",
+    "traceId": null,
+    "result": {
+        "pageNum": 1,
+        "pageSize": 20,
+        "total": 1,
+        "startRow": 1,
+        "endRow": 1,
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "pages": 1,
+        "prePage": 0,
+        "nextPage": 0,
+        "list": [
+            {
+                "userId": 2513,
+                "username": "autotest_5q7",
+                "phone": "19404996412",
+                "account": "800000321",
+                "orgId": 214,
+                "orgName": "autotest_90",
+                "roleId": 10077,
+                "roleName": "autotest_btue",
+                "status": "offline",
+                "sortNumber": 0,
+                "position": null,
+                "jobNo": null,
+                "createTimestamp": null,
+                "orgIds": null,
+                "dataSource": 0,
+                "thirdId": null
+            }
+        ],
+        "isLastPage": true,
+        "isFirstPage": true
+    }
+}

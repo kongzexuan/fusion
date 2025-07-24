@@ -1,0 +1,100 @@
+[
+  {
+    "udid": "172.25.29.151:5555",
+    "type": "hdd",
+    "name": "分体式终端2",
+    "platformName": "ANDROID",
+    "address": "172.25.23.112:4723",
+    "appPackage": "com.quanneng.hdd4h",
+    "serialNumber": "EHAB022100092",
+    "container": "appium",
+    "terminalType": "HDC"
+  },
+  {
+    "udid": "172.25.29.42:5555",
+    "type": "hdd",
+    "name": "分体式终端1",
+    "platformName": "ANDROID",
+    "address": "172.25.23.112:4724",
+    "appPackage": "com.quanneng.hdd4h",
+    "serialNumber": "EHAB022100334",
+    "container": "appium1",
+    "terminalType": "HDC"
+  },
+
+  {
+    "name": "windows1远程电脑",
+    "type": "hdd",
+    "platformName": "WINDOWS",
+    "address": "172.25.17.143:4723",
+    "appPackage": "C:\\Program Files (x86)\\Quanneng\\Meeting\\Meeting.exe",
+    "port": "4723",
+    "container": "0xF05E2",
+    "terminalType": "W"
+  },
+  {
+    "name": "windows2远程电脑",
+    "type": "hdd",
+    "platformName": "WINDOWS",
+    "address": "172.25.15.202:4723",
+    "appPackage": "C:\\Program Files (x86)\\Quanneng\\Meeting\\Meeting.exe",
+    "port": "4723",
+    "container": "0x180B6A",
+    "terminalType": "W"
+  },
+
+  {
+    "udid": "172.25.6.230:5555",
+    "name": "分体式终端1",
+    "type": "sl",
+    "platformName": "ANDROID",
+    "address": "172.25.6.230",
+    "appPackage": "com.quanneng.hdd4h",
+    "serialNumber": "EHAB022100346",
+    "terminalType": "A"
+  },
+
+
+  {
+    "name": "视联会议",
+    "type": "sl",
+    "platformName": "WINDOWS",
+    "address": "172.25.17.143",
+    "appPackage": "C:\\Program Files\\China Mobile\\SLHY\\Videocall.exe",
+    "terminalType": "W"
+
+  },
+  {
+    "name": "视联会议2",
+    "type": "sl",
+    "platformName": "WINDOWS",
+    "address": "172.25.24.41",
+    "appPackage": "C:\\Program Files\\China Mobile\\SLHY\\Videocall.exe",
+    "terminalType": "W"
+
+  },
+  {
+    "name": "iPhone 11",
+    "type": "sl",
+    "platformName": "IOS",
+    "address": "172.25.21.184",
+    "udid": "00008030-00146CDE2180802E",
+    "terminalType": "I"
+  },
+  {
+    "name": "windows1远程电脑",
+    "type": "sl",
+    "platformName": "WINDOWS",
+    "address": "172.25.4.22",
+    "appPackage": "D:\\SLHY\\Videocall.exe",
+    "terminalType": "W"
+  },
+  {
+    "name": "mac电脑",
+    "type": "hdd",
+    "platformName": "MAC",
+    "address": "172.25.21.155:4723",
+    "appPackage": "com.quanneng.hdd4iPhone",
+    "terminalType": "M"
+  }
+]
