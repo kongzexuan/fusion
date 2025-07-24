@@ -1,14 +1,10 @@
-package com.qn.auto.common.testcase;
+package com.qn.auto.modules.testcase;
 
 import com.qn.auto.common.pojo.BrowserType;
-import com.qn.auto.common.uiAuto.CommonDevice;
 import com.qn.auto.modules.PageDemo;
 import com.qn.auto.modules.manPage.HomePage;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
-import java.util.List;
 
 public class TestDemoBase extends pageInterface{
     public PageDemo pageDemo;

@@ -1,7 +1,6 @@
-package com.qn.auto.common.testcase;
+package com.qn.auto.modules.testcase;
 
 import com.qn.auto.common.pojo.BrowserType;
-import com.qn.auto.utils.PropertiesUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
 @Slf4j
