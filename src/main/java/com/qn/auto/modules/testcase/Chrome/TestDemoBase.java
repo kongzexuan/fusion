@@ -1,12 +1,13 @@
-package com.qn.auto.modules.testcase;
+package com.qn.auto.modules.testcase.Chrome;
 
 import com.qn.auto.common.pojo.BrowserType;
-import com.qn.auto.modules.PageDemo;
-import com.qn.auto.modules.manPage.HomePage;
+import com.qn.auto.modules.page.DemoPage.PageDemo;
+import com.qn.auto.modules.page.manPage.HomePage;
+import com.qn.auto.modules.testcase.pageInterface;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class TestDemoBase extends pageInterface{
+public class TestDemoBase extends pageInterface {
     public PageDemo pageDemo;
     public PageDemo pageDemo2;
 
@@ -25,14 +26,12 @@ public class TestDemoBase extends pageInterface{
         homePage=getHomePages().get(0);
 //        homePage2=getHomePages().get(1);
 
-
-
-
     }
 
 
     @AfterClass
     public void clearBase(){
+        homePage.clickExitButton();
 
     }
 }

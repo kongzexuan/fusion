@@ -1,6 +1,6 @@
-package com.qn.auto.modules.manPage;
+package com.qn.auto.modules.page.manPage;
 
-import com.qn.auto.modules.PageDemo;
+import com.qn.auto.modules.page.DemoPage.PageDemo;
 import io.qameta.allure.Step;
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +20,21 @@ public class HomePage {
     @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div[3]/div/div[2]/div[2]")
     WebElement companyButton;
 
+    //事件点击按钮
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div[5]/div/div[5]/span")
+    WebElement eventButton;
+    //图层
+    @FindBy(xpath = "//div[contains(@class, 'layer-btn')][.//text()='图层']")
+    WebElement layer;
+
+    //在线设备
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div[4]/div/div[2]/div/div/div[1]/div[2]")
+    WebElement onlineDevice;
+    //所有 设备
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div[4]/div/div[2]/div/div/div[1]/div[1]")
+    WebElement allDevice;
+
+
 
 
     //构造方法
@@ -34,6 +49,24 @@ public class HomePage {
         //fixme 优化 元素操作基类
         exitButton.click();
     }
+
+    @Step("点击事件icon")
+    public void clickEventButton() throws  Exception {
+        exitButton.click();
+    }
+    @Step("点击图层icon")
+    public void clickLayer() throws  Exception {
+        layer.click();
+    }
+    @Step("点击在线设备")
+    public void clickOnlineDevice() throws  Exception {
+        onlineDevice.click();
+    }
+    @Step("点击所有设备")
+    public void clickAllDevice() throws  Exception {
+        allDevice.click();
+    }
+
     @Step("确认退出")
     public PageDemo exitButton()throws  Exception {
         clickExitButton();

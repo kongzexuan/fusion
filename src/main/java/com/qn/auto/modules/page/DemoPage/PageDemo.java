@@ -1,6 +1,6 @@
-package com.qn.auto.modules;
+package com.qn.auto.modules.page.DemoPage;
 
-import com.qn.auto.modules.manPage.HomePage;
+import com.qn.auto.modules.page.manPage.HomePage;
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

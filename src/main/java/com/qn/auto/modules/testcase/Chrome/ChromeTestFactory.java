@@ -1,4 +1,4 @@
-package com.qn.auto.modules.testcase;
+package com.qn.auto.modules.testcase.Chrome;
 
 import com.qn.auto.common.pojo.BrowserType;
 
